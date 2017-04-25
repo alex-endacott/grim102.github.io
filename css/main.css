@@ -83,10 +83,9 @@ body {
 }
 
 button {
-  position: absolute; 
-  float: left; 
+  position: absolute;  
 }
 
 .next {
-  right: 150px;
+  right: 50px;
 }
