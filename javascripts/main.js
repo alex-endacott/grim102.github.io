@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 console.log("hello");
 
 var currentIndex = 0,
@@ -26,4 +28,5 @@ $('#next').click(function() {
     currentIndex = 0;
   }
   cycleItems();
+});
 });
