@@ -17,6 +17,7 @@ var autoSlide = setInterval(function() {
 }, 3000);
 
 $('.next').click(function() {
+  console.log("clicked");
   clearInterval(autoSlide);
   currentIndex += 1;
   if (currentIndex > itemAmt - 1) {
