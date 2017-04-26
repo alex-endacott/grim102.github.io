@@ -4,6 +4,7 @@ body {
 
 h1 {
   margin: 75px; 0px 75px 0px;
+  border-bottom: 1px solid #000000;
 }
 
 .name{
