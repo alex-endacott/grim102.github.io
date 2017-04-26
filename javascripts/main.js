@@ -1,3 +1,5 @@
+console.log(hello);
+
 var currentIndex = 0,
   items = $('.container div'),
   itemAmt = items.length;
