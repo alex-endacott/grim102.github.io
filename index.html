@@ -16,7 +16,33 @@
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	
-	<script src="javascripts/main.js"></script> 
+	<script>
+		var currentIndex = 0,
+  		items = $('.container div'),
+  		itemAmt = items.length;
+
+		function cycleItems() {
+  			var item = $('.container div').eq(currentIndex);
+  			items.hide();
+  			item.css('display','inline-block');
+		}
+
+		var autoSlide = setInterval(function() {
+  			if (currentIndex > itemAmt - 1) {
+    			currentIndex = 0;
+  		}
+  			cycleItems();
+		}, 3000);
+
+		$('.next').click(function() {
+  			clearInterval(autoSlide);
+  			currentIndex += 1;
+  			if (currentIndex > itemAmt - 1) {
+   			 currentIndex = 0;
+  		}
+  			cycleItems();
+		});
+	</script> 
 
 </head>
 
