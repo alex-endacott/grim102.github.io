@@ -8,8 +8,14 @@ body {
 }
 
 .check-list {
-  padding: 40px 0px 0px 100px;
+  margin: 40px 0px 0px 100px;
   display: inline; 
+}
+
+.check-mark {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
 }
 
 .sections {
