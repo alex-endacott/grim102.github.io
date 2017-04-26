@@ -18,7 +18,7 @@ var autoSlide = setInterval(function() {
   cycleItems();
 }, 3000);
 
-$('.next').click(function() {
+$('button').click(function() {
   console.log(clicked);
   clearInterval(autoSlide);
   currentIndex += 1;
