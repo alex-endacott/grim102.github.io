@@ -15,8 +15,8 @@ body {
 .check-mark {
   height: 50px;
   width: 50px;
-  margin-bottom: 20px;
-  right: 50px;
+  margin-bottom: 0px 100px 20px 0px;
+  float: right;
 }
 
 .sections {
