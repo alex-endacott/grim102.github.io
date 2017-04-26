@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-console.log("hello");
-
 var currentIndex = 0,
   items = $('.container div'),
   itemAmt = items.length;
@@ -21,7 +19,6 @@ var autoSlide = setInterval(function() {
 }, 3000);
 
 $('.next').click(function() {
-  console.log("clicked");
   clearInterval(autoSlide);
   currentIndex += 1;
   if (currentIndex > itemAmt - 1) {
