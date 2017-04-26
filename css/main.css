@@ -5,8 +5,10 @@ body {
 h1 {
   margin: 75px; 0px 75px 0px;
   border-bottom: 1px solid #000000;
-  display: inline;
-  width: 75%;
+}
+
+h1:border-bottom {
+  width: 75%; 
 }
 
 .name{
