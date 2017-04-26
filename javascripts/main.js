@@ -1,4 +1,4 @@
-console.log(hello);
+console.log("hello");
 
 var currentIndex = 0,
   items = $('.container div'),
