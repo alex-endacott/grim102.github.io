@@ -24,12 +24,6 @@ h1 {
   font-size: 400%
 }
 
-.check-mark {
-  height: 50px;
-  width: 50px;
-  margin: 0px 50px 20px 20px;
-  text-align: right;
-}
 
 .sections {
   display: inline;
@@ -60,6 +54,15 @@ h1 {
 
 .left {
   width: 500px;
+}
+
+.icon-list {
+  text-align: center;
+  margin-top: 75px;
+}
+
+.icon-cell {
+  margin: 20px 20px 20px 20px;
 }
 
 .img-border {
