@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 var currentIndex = 0,
-  items = $('.container div'),
+  items = $('#slider div'),
   itemAmt = items.length;
 
 function cycleItems() {
