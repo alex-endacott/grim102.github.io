@@ -5,7 +5,7 @@ var currentIndex = 0,
   itemAmt = items.length;
 
 function cycleItems() {
-  var item = $('.container div').eq(currentIndex);
+  var item = $('#slider div').eq(currentIndex);
   items.hide();
   item.css('display','inline-block');
 }
