@@ -71,6 +71,10 @@ h1 {
   margin: 30px 30px 30px 30px;
 }
 
+.demo {
+  border: 1px solid #000;
+}
+
 .next {
   background-color: #000000;
   color: #ffffff;
