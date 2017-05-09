@@ -31,6 +31,10 @@ h1 {
   margin: 75px 0 0 100px;
 }
 
+.emphasis {
+  margin: 20px 10px; 
+}
+
 .sections {
   display: inline;
   float: left;
