@@ -35,6 +35,10 @@ h1 {
   margin: 20px 0 20px 0; 
 }
 
+.emphasis-cell {
+  padding: 10px; 
+}
+
 .sections {
   display: inline;
   float: left;
