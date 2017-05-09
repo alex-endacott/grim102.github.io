@@ -32,7 +32,8 @@ h1 {
 }
 
 .emphasis {
-  margin: 20px 0 40px 0; 
+  margin-top: 20px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
