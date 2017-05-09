@@ -25,10 +25,10 @@ h1 {
 }
 
 .blurb {
-  text-align: center;
+  text-align: left;
   font-size: 200%;
   max-width: 850px;
-  margin: 75px 0 0 30px;
+  margin: 75px 0 0 40px;
 }
 
 .sections {
