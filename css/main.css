@@ -32,6 +32,10 @@ h1 {
   margin: 75px 0 0 80px;
 }
 
+.margin-top {
+  margin-top: 20px; 
+}
+
 .emphasis {
   margin-top: 40px;
   margin-bottom: 40px;
