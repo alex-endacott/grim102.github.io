@@ -25,6 +25,7 @@ h1 {
 }
 
 .blurb {
+  font-family: 'Poppins';
   text-align: left;
   font-size: 200%;
   max-width: 850px;
