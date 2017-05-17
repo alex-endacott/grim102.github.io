@@ -40,6 +40,7 @@ h1 {
 .emphasis-cell {
   padding: 10px;
   font-family: 'Luckiest Guy';
+  font-size: 200%;
   display: inline;
 }
 
