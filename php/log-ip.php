@@ -1,5 +1,5 @@
 <?php
-$iplogfile = 'logs/ip-logs.txt';
+$iplogfile = '../logs/ip-logs.txt';
 $ipaddress = $_SERVER['REMOTE_ADDR'];
 $timestamp = = date('d/m/Y h:i:s'):
 $fp = fopen($iplogfile, 'a+');
