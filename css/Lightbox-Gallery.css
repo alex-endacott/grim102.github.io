@@ -63,6 +63,27 @@
 }
 
 #email-link {
-  font-size:1.5em;
+}
+
+.skills {
+  display:inline;
+  margin-left:.5em;
+}
+
+.experience {
+  width:50%;
+  float:left;
+}
+
+.exp-icon {
+  margin-top:24px;
+}
+
+#skills-h1 {
+  margin-bottom:28px;
+}
+
+#top-row {
+  margin-top:1em;
 }
 
