@@ -73,7 +73,7 @@
 .experience {
   width:50%;
   float:left;
-  min-width:308px;
+  min-width:280px;
   margin-top:.5em;
 }
 
@@ -81,8 +81,8 @@
   margin-bottom:28px;
 }
 
-#top-row {
-  margin-top:1em;
+.each-row {
+  margin-top:.5em;
 }
 
 #design-icon {
@@ -99,5 +99,14 @@
 
 #data-icon {
   margin-top:.9em;
+}
+
+#avatar {
+  float:left;
+  margin:1em 1em 1em 0;
+}
+
+.experience-bottom {
+  margin-bottom:.5em;
 }
 

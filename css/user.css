@@ -155,3 +155,25 @@ section.testimonials {
   }
 }
 
+@media (max-width:991px) {
+  #skills-sidebar {
+    border-top-width:.5em;
+    border-top-color:white;
+    border-top-style:solid;
+  }
+}
+
+@media (min-width:992px) {
+  #skills-sidebar {
+    border-left-width:.5em;
+    border-left-color:white;
+    border-left-style:solid;
+  }
+}
+
+@media (max-width:991px) {
+  #second-row {
+    background-color:#f8f8f8;
+  }
+}
+
