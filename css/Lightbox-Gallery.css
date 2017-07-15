@@ -73,10 +73,8 @@
 .experience {
   width:50%;
   float:left;
-}
-
-.exp-icon {
-  margin-top:24px;
+  min-width:308px;
+  margin-top:.5em;
 }
 
 #skills-h1 {
@@ -85,5 +83,21 @@
 
 #top-row {
   margin-top:1em;
+}
+
+#design-icon {
+  margin-top:1em;
+}
+
+#dev-icon {
+  margin-top:.8em;
+}
+
+#comm-icon {
+  margin-top:.9em;
+}
+
+#data-icon {
+  margin-top:.9em;
 }
 
