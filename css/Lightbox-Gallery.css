@@ -63,6 +63,7 @@
 }
 
 #email-link {
+  font-size:1.3em;
 }
 
 .skills {
@@ -73,7 +74,6 @@
 .experience {
   width:50%;
   float:left;
-  min-width:280px;
   margin-top:.5em;
 }
 
@@ -106,12 +106,65 @@
   margin:1em 1em 1em 0;
 }
 
-.experience-bottom {
-  margin-bottom:1em;
+@media (min-width:991px) {
+  .experience-bottom {
+    margin-bottom:1em;
+  }
 }
 
 .experience-card {
   background-color:#e3e5e7;
   border-radius:2%;
+}
+
+@media (max-width:589px) {
+  .experience {
+    width:100%;
+  }
+}
+
+@media (max-width:589px) {
+  .icons-mobile {
+    right:.7em;
+    position:relative;
+  }
+}
+
+@media (max-width:589px) {
+  .icons-col {
+    width:10%;
+  }
+}
+
+@media (max-width:589px) {
+  .experience-card {
+    width:90%;
+  }
+}
+
+@media (max-width:350px) {
+  .experience-card {
+    width:87%;
+  }
+}
+
+#my-name {
+  font-family:'Merriweather, serif';
+  font-weight:700;
+  margin:-.09em;
+  font-size:4em;
+  color:#779cc0;
+}
+
+@media (max-width:589px) {
+  #my-name {
+    font-size:3em;
+  }
+}
+
+@media (max-width:350px) {
+  #my-name {
+    font-size:2em;
+  }
 }
 
