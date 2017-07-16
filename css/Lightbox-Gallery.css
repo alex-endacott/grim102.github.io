@@ -106,14 +106,14 @@
   margin:1em 1em 1em 0;
 }
 
-@media (min-width:991px) {
-  .experience-bottom {
+
+.experience-bottom {
     margin-bottom:1em;
-  }
 }
 
+
 .experience-card {
-  background-color:#e3e5e7;
+  background-color: rgba(0,0,0,0.075);
   border-radius:2%;
 }
 
