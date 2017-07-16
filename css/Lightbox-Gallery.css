@@ -107,6 +107,11 @@
 }
 
 .experience-bottom {
-  margin-bottom:.5em;
+  margin-bottom:1em;
+}
+
+.experience-card {
+  background-color:#e3e5e7;
+  border-radius:2%;
 }
 

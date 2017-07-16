@@ -1,0 +1,308 @@
+#container {
+	width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+
+	#board {
+		margin: 7em auto;
+		width: 350px;
+		height: 350px;
+	}
+
+	.square {
+		width: 115px;
+		height: 115px;
+		float: left;
+	}
+
+	span {
+		margin-left: .22em;
+		font-size: 7em;
+		
+	}
+
+	#s1>span, #s2>span, #s3>span {
+		top: 1em;
+	}
+
+	#s5>span, #s6>span  {
+		top: 2em;
+	}
+
+	#s2>span, #s3>span {
+		margin-left: .05em;
+	} 
+
+	#s4>span, #s7>span {
+		position: relative;
+		top: -.17em;
+	}
+
+	#s8>span, #s9>span {
+		position: relative;
+		top: -.03em;
+	}
+
+	header {
+		top: 9em;
+		right: 1em;
+		padding: .5em;
+		font-size: 1em;
+	}
+
+	footer {
+		top: 20em;
+		right: 2em;
+		padding: .5em;
+		font-size: 1em;
+	}
+
+	aside span {
+		font-size: 1.5em;
+		font-family: 'Open Sans';
+	}
+
+	header button {
+		padding: 0 1em;
+		margin: 5px;
+		font-size: 1.5em;
+	}
+
+	footer button {
+		padding: .3em .5em;
+		margin: 3px;
+		font-size: 1.5em;
+	}
+
+	#X {
+		margin-left: 4px;
+	}
+
+	#O {
+		margin-right: 4px;
+	}
+
+}
+
+@media screen and (min-width: 550px) and (max-width: 700px) {
+
+	#board {
+		margin: 4em auto;
+		width: 550px;
+		height: 550px;
+	}
+
+	.square {
+		width: 170px;
+		height: 170px;
+		float: left;
+	}
+
+	span {
+		margin-left: .22em;
+		font-size: 10em;
+		
+	}
+
+	#s1>span, #s2>span, #s3>span {
+		top: .4em;
+	}
+
+	#s5>span, #s6>span  {
+		top: 1.45em;
+	}
+
+	#s2>span, #s3>span {
+		margin-left: .08em;
+	} 
+
+	#s4>span, #s7>span {
+		position: relative;
+		top: -.15em;
+	}
+
+	#s8>span, #s9>span {
+		top: 2.5em;
+	}
+
+	header {
+		top: 4em;
+		right: 2em;
+		padding: .7em;
+		font-size: 1.5em;
+	}
+
+	footer {
+		top: 22em;
+		right: 5em;
+		padding: .7em;
+		font-size: 1em;
+	}
+
+	aside span {
+		font-size: 1.5em;
+		font-family: 'Open Sans';
+	}
+
+	header button {
+		padding: 0 1em;
+		margin: 5px;
+		font-size: 1.5em;
+	}
+
+	footer button {
+		padding: .7em 1em;
+		margin: 5px;
+		font-size: 1.5em;
+	}
+
+	#X {
+		margin-left: 4px;
+	}
+
+	#O {
+		margin-right: 4px;
+	}
+}
+
+@media screen and (min-width: 700px) {
+
+	#board {
+		margin: 1em auto;
+		width: 600px;
+		height: 600px;
+	}
+
+	.square {
+		width: 200px;
+		height: 200px;
+		float: left;
+	}
+
+	span {
+		margin-left: .2em;
+		font-size: 12em;
+	}
+
+	#s2>span, #s3>span {
+		margin-left: .07em;
+	} 
+
+	#s4>span, #s7>span {
+		position: relative;
+		top: -.15em;
+	}
+
+	#s8>span, #s9>span {
+		top: 2.15em;
+	}
+
+	header {
+		top: 2em;
+		right: 2em;
+		padding: 1em;
+		font-size: 1.5em;
+	}
+
+	footer {
+		top: 23em;
+		right: 4em;
+		padding: 1em;
+		font-size: 1em;
+	}
+
+	aside span {
+		font-size: 1.5em;
+		font-family: 'Open Sans';
+	}
+
+	header button {
+		padding: 0 1em;
+		margin: 5px;
+		font-size: 1.5em;
+	}
+
+	footer button {
+		padding: .7em 1em;
+		margin: 5px;
+		font-size: 1.5em;
+	}
+
+	#X {
+		margin-left: 4px;
+	}
+
+	#O {
+		margin-right: 4px;
+	}
+
+}
+
+@media screen and (min-width: 1000px) {
+	header {
+		right: 30%;
+	}
+
+	footer {
+		right: 35%;
+	}
+}
+
+header, footer {
+	background-color: white;
+	color: black;
+	font-family: 'Open Sans';
+	text-align: center;
+	border-radius: 5px;
+	border: solid 3px black;
+	position: fixed;
+	z-index: 1;
+}
+
+header button, footer button {
+	background-color: white;
+	border: none;
+	border-radius: 75px;
+	color: #3b90e7;
+	font-family: 'Fredoka One';
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+}
+
+header button:hover, footer button:hover {
+	color: white;
+	background-color: #3b90e7;
+	transition: .3s;
+}
+
+section {
+	color: #180fa9;
+}
+
+section span {
+	position: absolute;
+	font-family: 'Fredoka One';
+}
+
+.ready {
+	cursor: pointer;
+}
+
+svg {
+	stroke: #3b90e7;
+	stroke-width: 25px;
+	stroke-linecap: round;
+}
+
+#s4 svg, #s7 svg {
+	display: block;
+}
+
+footer {
+	display: none;
+}
+
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width">
+	<meta charset="UTF-8">
+	<title>Tic Tac Toe</title>
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/tic-tac-toe.css">
+</head>
+<body>
+<main id='container'>
+	<header>
+		<aside id="header">Choose one:
+			<button id="X" value="X" name="X" class="player">X</button>
+			<button id="O" value="O" name="O" class="player">O</button>
+		</aside>
+	</header>
+	<article id='board'>
+		<section class="square" id="s1">
+			<span></span>
+		</section>
+		<section class="square" id="s2">
+			<svg height="300%" width="15%" viewBox="0 0 10 600">
+				<line x1="7" y1="40" x2="7" y2="580" />
+			</svg>
+			<span></span>
+		</section>
+		<section class="square" id="s3">
+			<svg height="300%" width="15%" viewBox="0 0 10 600">
+				<line x1="7" y1="40" x2="7" y2="580"/>
+			</svg>
+			<span></span>
+		</section>
+		<section class="square" id="s4">
+			<svg height="15%" width="300%" viewBox="0 0 600 10">
+				<line x1="40" y1="7" x2="580" y2="7"/>
+			</svg>
+			<span></span>
+		</section>
+		<section class="square" id="s5">
+			<span></span>
+		</section>
+		<section class="square" id="s6">
+			<span></span>
+		</section>
+		<section class="square" id="s7">
+			<svg height="15%" width="300%" viewBox="0 0 600 10">
+				<line x1="40" y1="7" x2="580" y2="7"/>
+			</svg>
+			<span></span>
+		</section>
+		<section class="square" id="s8">
+			<span></span>
+		</section>
+		<section class="square" id="s9">
+			<span></span>
+		</section>
+	</article>
+	<footer>
+		<aside id="footer"><span id="end"></span>
+			<button id="playAgain">Play Again</button>
+		</aside>
+	</footer>
+</main>
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="javascripts/tic-tac-toe.js"></script>
+</body>
+</html>
