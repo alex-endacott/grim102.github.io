@@ -257,3 +257,9 @@ body {
   }
 }
 
+@media (min-width:503px) {
+  #avatar {
+    height:226px;
+  }
+}
+
