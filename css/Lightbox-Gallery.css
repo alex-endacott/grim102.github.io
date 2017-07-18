@@ -257,7 +257,7 @@ body {
   }
 }
 
-@media (min-width:503px) {
+@media (min-width:515px) {
   #avatar {
     height:226px;
   }
