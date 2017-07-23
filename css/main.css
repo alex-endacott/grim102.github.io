@@ -513,14 +513,10 @@ section.testimonials {
 }
 
 @media screen and (min-width: 992px) {
-  #skills-sidebar {
-    height: 1030px;
+  #second-row {
+    display: flex;
   }
 }
 
-@media screen and (min-width: 1200px) {
-  #skills-sidebar {
-    height: 984px;
-  }
-}
+
 
