@@ -1,3 +1,7 @@
+body {
+  color:#444444;
+}
+
 .navbar {
   margin-bottom:0;
   border:none;
@@ -338,10 +342,6 @@ section.testimonials {
   }
 }
 
-body {
-  color:#444444;
-}
-
 @media (max-width:350px) {
   #hello {
     font-size:.5em;
@@ -509,6 +509,18 @@ body {
     font-size: 2.3em;
     font-weight: 100;
     line-height: 1.1em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #skills-sidebar {
+    height: 1030px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #skills-sidebar {
+    height: 984px;
   }
 }
 
