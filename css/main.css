@@ -402,10 +402,6 @@ section.testimonials {
   /*text-decoration:underline;*/
 }
 
-.landing-page-heading {
-  color:#ffffff;
-  text-shadow:2px 2px 3px rgba(0,0,0,0.03);
-}
 
 @media (min-width:992px) {
   #full-stack {
@@ -499,9 +495,77 @@ section.testimonials {
   border: solid black .05em;
 }
 
+@media screen and (min-width: 992px) {
+  #alex {
+    font-size: 10em;
+    margin-top: 2em;
+  }
+  .landing-page-heading {
+    margin-bottom: 3em;
+  } 
+  #landing-page-text {
+    left: 14em;
+    bottom: 8em;
+  }
+
+  .ref-quotes {
+    font-size: 1.5em;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #alex {
+    font-size: 8em;
+    margin-top: 2em;
+  }
+  .landing-page-heading {
+    margin-bottom: 3em;
+  } 
+  #landing-page-text {
+    left: 4em;
+    bottom: 8em;
+  }
+
+  .ref-quotes {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  #alex {
+    font-size: 4em;
+    margin-top: 1em;
+  }
+  .landing-page-heading {
+    margin-bottom: 3em;
+  } 
+  #landing-page-text {
+    left: 4em;
+    bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  #landing-page-text {
+    text-align: center;
+  }
+}
+
 #alex {
   color: #fff;
   text-shadow:2px 2px 3px rgba(0,0,0,0.3);
+}
+
+.landing-page-heading {
+  color:#ffffff;
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.33);
+  
+}
+
+#landing-page-text {
+  display: inline-block;
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {
