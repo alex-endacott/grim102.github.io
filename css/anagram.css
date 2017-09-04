@@ -2,7 +2,7 @@ body {
   font-family: 'Inknut Antiqua';
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/773753/anceint-scroll.PNG"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/773753/candle.GIF") black;
   background-repeat: no-repeat, no-repeat;
-  background-position: 50% 10%, 10% 170%;
+  background-position: 55% 10%, 10% 170%;
   background-size: 700px 900px, 300px 400px;
 }
 
