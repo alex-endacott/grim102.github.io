@@ -1,0 +1,60 @@
+body {
+	font-family: 'Noto Sans';
+	margin: 0;
+}
+
+#wrapper {
+	
+}
+
+h1, article>p {
+	margin-left: 1em;
+	display: inline-block;
+}
+
+h1 {
+	background-color: blue;
+	color: white;
+	padding: .1em .2em;
+}
+
+#weatherGroup {
+	margin: 0 1em 1em 1em;
+	display: none;
+}
+
+.weather {
+	text-align: center;
+	border: 1px solid black;
+	width: 33%;	
+	height: 200px;
+	float: left;
+	margin: 0 0 1em 0;
+}
+
+.info {
+	margin: .2em;
+	position: relative;
+	top: -10%;
+}
+
+.icon {
+	margin: -1.5em 0 .5em 0;
+
+}
+
+.day {
+	position: relative;
+	left: -40%;
+	display: inline;
+}
+
+form {
+	margin-left: 1em;
+}
+
+#map-canvas {
+	margin: 2em 1em;
+	width: 96%;
+	height: 330px;
+}

@@ -1,0 +1,79 @@
+body {
+  font-family: 'Inknut Antiqua';
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/773753/anceint-scroll.PNG"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/773753/candle.GIF") black;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50% 10%, 10% 170%;
+  background-size: 700px 900px, 300px 400px;
+}
+
+#wrapper {
+  margin-top: 120px;
+}
+
+#content {
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  left: 40px;
+  
+}
+
+form {
+  margin-left: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+.button {
+  position: relative;
+  right: 80px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 5px;
+  width: 90px;
+  font-family: 'Ravi Prakash';
+  font-size: 18px;
+}
+
+#submit {
+  margin-top: 30px;
+  float: right;
+}
+
+#submit: focus {
+  outline: 0;
+}
+
+#submit:hover {
+  background-color: #555;
+}
+
+#reset {
+  float: right;
+  clear: both;
+  margin-top: 10px;
+}
+
+#reset:focus {
+  outline: 0;
+}
+
+#reset:hover {
+  background-color: #555;
+}
+
+#result {
+  float: left;
+  margin-top: 20px;
+  position: relative;
+  left: 20px;
+  width: 150px;
+  max-height: 15px;
+}
+
+#word-one {
+  margin-bottom: 10px;
+}
