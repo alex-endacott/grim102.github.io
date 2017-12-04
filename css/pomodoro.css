@@ -1,5 +1,6 @@
 .time {
 	font-family: 'Source Code Pro';
+	margin-top: .15em;
 }
 
 .clock {
@@ -7,5 +8,13 @@
 	height: 5em;
 	width: 60%;
 	padding: .5em .5em 0 0;
-	margin: 5em 1em 1em auto;
+	margin: 1em 1em 1em 6.5em;
+}
+
+#clock-buttons {
+	margin-top: 5em;
+}
+
+button {
+	padding: 0;
 }
