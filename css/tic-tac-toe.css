@@ -290,6 +290,10 @@ section span {
 	cursor: pointer;
 }
 
+button {
+	cursor: pointer;
+}
+
 svg {
 	stroke: #3b90e7;
 	stroke-width: 25px;
