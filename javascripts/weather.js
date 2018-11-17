@@ -3,7 +3,7 @@ $( document ).ready(function() {
 	var mapOptions = {
             
         zoom: 3,
-            
+           
         center: {
             lat:  40.7553014,
             lng: -99.6514271
@@ -50,7 +50,7 @@ $( document ).ready(function() {
 	function setWeather(lattitude, longitude) {
 		$.get('http://api.openweathermap.org/data/2.5/forecast' + '?lat=' + lattitude +
 			'&lon=' + longitude, {
-			APPID: "9f5ba449d9d14d24a9059d116da48f7e",
+      APPID: "9f5ba449d9d14d24a9059d116da48f7e",
 			units: "imperial"
 		}).done(function(data) {
 			console.log(data);
