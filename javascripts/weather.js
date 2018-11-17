@@ -48,7 +48,7 @@ $( document ).ready(function() {
 	});
 
 	function setWeather(lattitude, longitude) {
-		$.get('http://api.openweathermap.org/data/2.5/forecast' + '?lat=' + lattitude +
+		$.get('https://api.openweathermap.org/data/2.5/forecast' + '?lat=' + lattitude +
 			'&lon=' + longitude, {
       APPID: "9f5ba449d9d14d24a9059d116da48f7e",
 			units: "imperial"
